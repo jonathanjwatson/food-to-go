@@ -36,6 +36,12 @@ let dishes = [
   },
 ];
 
+// dishes.forEach((dish) => {
+//     console.log(dish.id);
+//     console.log(dish.name);
+//     console.log(dish.price);
+// });
+
 // 1. View Route for all Resources - dishes
 app.get("/", (req, res) => {
     res.render("index", {
